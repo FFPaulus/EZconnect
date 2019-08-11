@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cd /usr/share/ezconnect || exit 1
-java -jar ezconnect.jar
+java -jar EZconnect.jar
