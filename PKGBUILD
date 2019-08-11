@@ -4,7 +4,7 @@ pkgrel=1
 pkgdesc="Set up VNC and connect to remote desktop via browser"
 arch=("x86_64")
 license=('MPL2')
-source=('git+https://github.com/Ziska20/EZconnect.git#tag=50352f058ea4e95ddac1df80b5e7b783620d4d3d')
+source=('git+https://github.com/Ziska20/EZconnect.git#tag=3d4fdde5dc0a639cfc5fe835cef3b39e2ec45dba')
 md5sums=('SKIP')
 
 package() {
