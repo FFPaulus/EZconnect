@@ -4,9 +4,7 @@ pkgrel=1
 pkgdesc="Set up VNC and connect to remote desktop via browser"
 arch=("x86_64")
 license=('MPL2')
-source=("https://github.com/Ziska20/EZconnect/raw/master/$pkgname-$pkgver.tar.xz")
-build() {
-}
+source=('git+https://github.com/Ziska20/EZconnect.git')
 
 package() {
 		depends=('jre8-openjdk>=8.u222' 'websockify>=0.8.0' 'ruby>=2.6.3' 'x11vnc>=1:0.9.16')
