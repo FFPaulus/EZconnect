@@ -1,0 +1,3 @@
+port_website: 9292
+port_websockify: 3456
+x11_arguments: "-forever -shared"

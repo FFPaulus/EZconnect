@@ -1,0 +1,28 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at https://mozilla.org/MPL/2.0/. -->
+
+<%#require "active_model" %>
+<html>
+<head>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="app/styles/base.css">
+</head>
+<body>
+<div class="noVNC_center noVNC_connect_button" id="login_box">
+  <div id="small_login_box">
+    <div style="text-align: center" translate="no"><img alt="" src="app/images/logo.svg" style="padding: 5%; width: 60%;"></div>
+<form name="myForm" id="loginForm" method="post" action="/remoteDesktop">
+  Username:<br>
+  <input name="user" type="text" id="username"  class="login_fields"><br><br>
+  Password:<br>
+  <input name="passwd" type="password" id="password"  class="login_fields"><br><br>
+  <input name="submit_login" type="submit" value="Login" class="noVNC_button">
+</form>
+    <% unless message.nil? %>
+      <div class="login_error"> <%= message %></div>
+    <% end %>
+  </div>
+</div>
+</body>
+</html>

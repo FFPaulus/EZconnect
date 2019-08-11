@@ -1,0 +1,13 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+source 'https://rubygems.org'
+
+gem 'rack', '~> 2.0', '>= 2.0.7'
+gem 'thin', '~> 1.7'
+
+gem 'websocket-rack', '~> 0.4.0'
+gem 'activesupport', '~> 5.0'
+gem 'actionpack', '~> 5.2', '>= 5.2.3'
+gem 'rack-rewrite', '~> 1.5.0'
