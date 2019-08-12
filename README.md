@@ -25,7 +25,7 @@ It is also possible to install EZconnect on other Linux systems, however this is
 
 When these dependencies are installed, download EZconnect.jar and the lib folder and place them into an empty directory. Navigate to this directory, then:
 
-1.execute ```cd lib/webserver``` 
+1. execute ```cd lib/webserver``` 
 2. execute ```bundle install```. If you do not have the correct permissions to write, give the requested directory the permission or use sudo. 
 3. execute ```cd ../..``` 
 4. execute ```java -jar EZconnect.jar```
