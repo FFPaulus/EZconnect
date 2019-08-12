@@ -10,7 +10,7 @@ The easiest way to install EZconnect on Arch-based systems, is by downloading th
 1. move PKGBUILD to an empty directory
 2. navigate into that directory
 3. execute ```makepkg -s```
-4. execute ```makepkg --install ezconnect-v1.0-1-x86\_64.tar.xz``` and follow the installation prompts. The app is now installed and can be started using the bash command ```ezconnect```.
+4. execute ```makepkg --install ezconnect-v1.0-1-x86_64.tar.xz``` and follow the installation prompts. The app is now installed and can be started using the bash command ```ezconnect```.
 
 Installation on other Linux systems:
 ---
